@@ -1,0 +1,101 @@
+div(
+class='large-6 medium-6 small-12 cell'
+id='amplitude-left'
+)
+    img(
+    class='cover'
+    amplitude-song-info='cover_art_url'
+    amplitude-main-song-info='true'
+    )
+    div(
+    id='player-left-bottom'
+    )
+        #time-container
+            span(
+            class='current-time'
+            )
+                span(
+                class='amplitude-current-minutes'
+                amplitude-main-current-minutes="true"
+                )
+                span :
+                span(
+                class='amplitude-current-seconds'
+                amplitude-main-current-seconds="true"
+                )
+            #progress-container
+                input(
+                type='range'
+                class="amplitude-song-slider"
+                amplitude-main-song-slider="true"
+                )
+                progress(
+                id='song-played-progress'
+                class="amplitude-song-played-progress"
+                amplitude-main-song-played-progress="true"
+                )
+
+                progress(
+                id="song-buffered-progress"
+                class="amplitude-buffered-progress"
+                value="0"
+                )
+            span(
+            class='duration'
+            )
+                span(
+                class='amplitude-duration-minutes'
+                amplitude-main-duration-minutes="true"
+                )
+                span :
+                span(
+                class="amplitude-duration-seconds"
+                amplitude-main-duration-seconds="true"
+                )
+
+        #control-container
+            #repeat-container
+                .amplitude-playback-speed
+            #central-control-container
+                #central-controls
+                    div(
+                    class='amplitude-prev'
+                    id='previous'
+                    )
+                    div(
+                    class='amplitude-play-pause'
+                    amplitude-main-play-pause="true"
+                    id="play-pause"
+                    )
+                    div(
+                    class='amplitude-next'
+                    id='next'
+                    )
+            #volume-container
+                .volume-controls
+                    div(
+                        class='amplitude-mute amplitude-not-muted'
+                    )
+                input(
+                type='range'
+                class='amplitude-volume-slider'
+                )
+
+        #meta-container
+            span(
+            class='song-name'
+            amplitude-main-song-info="true"
+            amplitude-song-info="name"
+            )
+            div(
+                class='song-artist-album'
+            )
+                span(
+                amplitude-song-info="artist"
+                amplitude-main-song-info="true"
+                )
+                span(
+                amplitude-song-info="album"
+                amplitude-main-song-info="true"
+                )
+

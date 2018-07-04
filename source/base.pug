@@ -1,0 +1,19 @@
+doctype html
+html
+    head
+        meta(charset = 'UTF-8')
+        meta(name='viewport', content="initial-scale=1.0, width=device-width")
+        title My playlist for Coding
+    body
+        div(
+            id='blue-playlist-container'
+            class='grid-x'
+        )
+            div(
+                class='large-10 medium-12 small-11 large-centered medium-centered small-centered cell'
+                id='amplitude-player'
+            )
+                .grid-x
+                    include includes/left
+                    include includes/right
+

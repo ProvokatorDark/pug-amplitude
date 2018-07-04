@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Anvil",
+    "artist": "Lorn",
+    "album": "Anvil",
+    "url": "https://521dimensions.com/songs/LORN - ANVIL.mp3",
+    "cover_art_url": "album-art/anvil.jpg"
+  },
+  {
+    "name": "I Came Running",
+    "artist": "Ancient Astronauts",
+    "album": "We Are to Answer",
+    "url": "https://521dimensions.com/songs/ICameRunning-AncientAstronauts.mp3",
+    "cover_art_url": "album-art/we-are-to-answer.jpg"
+  },
+  {
+    "name": "First Snow",
+    "artist": "Emancipator",
+    "album": "Soon It Will Be Cold Enough",
+    "url": "https://521dimensions.com/songs/FirstSnow-Emancipator.mp3",
+    "cover_art_url": "album-art/soon-it-will-be-cold-enough.jpg"
+  },
+  {
+    "name": "Offcut #6",
+    "artist": "Little People",
+    "album": "We Are But Hunks of Wood Remixes",
+    "url": "https://521dimensions.com/songs/Offcut6-LittlePeople.mp3",
+    "cover_art_url": "album-art/we-are-but-hunks-of-wood.jpg"
+  },
+  {
+    "name": "Dusk To Dawn",
+    "artist": "Emancipator",
+    "album": "Dusk To Dawn",
+    "url": "https://521dimensions.com/songs/DuskToDawn-Emancipator.mp3",
+    "cover_art_url": "album-art/from-dusk-to-dawn.jpg"
+  },
+  {
+    "name": "Anthem",
+    "artist": "Emancipator",
+    "album": "Soon It Will Be Cold Enough",
+    "url": "https://521dimensions.com/songs/Anthem-Emancipator.mp3",
+    "cover_art_url": "album-art/soon-it-will-be-cold-enough.jpg"
+  },
+  {
+    "name": "Neuro",
+    "artist": "Nastroy",
+    "album": "Be Cool",
+    "url": "./mp3/Misli.mp3",
+    "cover_art_url": "album-art/neuro.jpg"
+  }
+]
+

@@ -1,0 +1,13 @@
+include ../mixins/playlistinner
+-const playlist = require('./playlist');
+div(
+    class='large-6 medium-6 small-12 cell'
+    id='amplitude-right'
+)
+    for song, index in playlist
+        div(
+        class='song amplitude-song-container amplitude-play-pause'
+        amplitude-song-index=index
+        )
+            +playlistinner(song)
+

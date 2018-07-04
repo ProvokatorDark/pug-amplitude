@@ -1,0 +1,22 @@
+mixin playlistinner(song)
+    div(
+    class='song-now-playing-icon-container'
+    )
+        div(
+        class='play-button-container'
+        )
+        img(
+        class='now-playing'
+        src='./img/now-playing.svg'
+        )
+    div(
+    class='song-meta-data'
+
+    )
+        span(
+        class='song-title'
+        ) #{song.name}
+
+        span(
+        class='song-artist'
+        ) #{song.artist}
